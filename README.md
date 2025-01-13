@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+
+# To integrat Google pay button in React App
+This applicatin is used to integrate google pay for card payment in your website 
+## To use this in your React application, you would typically:
+
+1. Create a new React app using Create React App or your preferred method.
+2. Replace the contents of `src/App.js` and `src/App.css` with the provided code.
+3. Create a new file `src/components/SubscriptionPlan.js` and add the SubscriptionPlan component code there.
+4. Install the necessary dependencies (`@google-pay/button-react`).
+5. Run your React application.
+   
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
