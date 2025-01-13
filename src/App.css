@@ -1,41 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: rgb(217, 227, 230);
+.subscription-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: blue;
-  border-color: bisque;
+  padding: 2rem;
+  background-color: #f0f4f8;
 }
 
-.subscription-plan {
-  background-color: white;
-  color: black;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 400px;
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0000ff;
+  margin-bottom: 2rem;
+}
+
+.subscription-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
+  max-width: 500px;
+  text-align: center;
 }
 
-.subscription-plan form {
-  border-color: black;
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.plan-form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 20px;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.subscription-plan form div {
-  margin-bottom: 10px;
+.plan-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
-.subscription-plan label {
-  margin-left: 10px;
+.plan-radio {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.plan-label {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Override Google Pay button width */
+.button-container > div {
+  width: auto !important;
 }
 
