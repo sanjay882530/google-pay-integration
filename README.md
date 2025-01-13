@@ -1,5 +1,5 @@
 
-#To integrat Google pay button in React App
+# To integrat Google pay button in React App
 This applicatin is used to integrate google pay for card payment in your website 
 ## To use this in your React application, you would typically:
 
